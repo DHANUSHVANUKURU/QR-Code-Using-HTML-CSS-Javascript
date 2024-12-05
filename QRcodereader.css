@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+video, canvas {
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
